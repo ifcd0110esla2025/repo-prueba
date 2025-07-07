@@ -1,0 +1,15 @@
+# VS Code
+.vscode/
+# macOS y Windows
+.DS_Store
+Thumbs.db
+# Archivos temporales
+*.log
+*.tmp
+*~
+# Dependencias y build
+node_modules/
+dist/
+build/
+# Variables de entorno
+.env
