@@ -16,3 +16,14 @@ header {
     text-align: center;
     padding: 1rem;
 }
+
+#equipo {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+.miembro {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+}
