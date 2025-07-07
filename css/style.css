@@ -27,3 +27,15 @@ header {
     background: white;
     border-radius: 5px;
 }
+#contacto {
+    padding: 2rem;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+input, textarea, button {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
