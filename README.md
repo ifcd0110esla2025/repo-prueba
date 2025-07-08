@@ -7,3 +7,5 @@
 **-Wildeyver Valdez**
 **-Álvaro Yepes**
 ## Descripción Proyecto para aprender Git y GitHub de forma colaborativa.
+## Despliegue
+Este proyecto está publicado en GitHub Pages: https://ifcd0110esla2025.github.io/repo-prueba/
