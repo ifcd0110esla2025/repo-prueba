@@ -19,7 +19,9 @@ header {
 img{
     height: 20em;
 }
-
+ul{
+    list-style: none;
+}
 #equipo {
     padding: 2rem;
     background: #f4f4f4;
