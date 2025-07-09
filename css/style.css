@@ -11,10 +11,13 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #49cfe0;
     color: white;
     text-align: center;
     padding: 1rem;
+}
+img{
+    height: 20em;
 }
 
 #equipo {
