@@ -15,16 +15,76 @@ header {
     color: white;
     text-align: center;
     padding: 1rem;
+    position: relative;
+    height: 30em;
 }
-img{
+h1{
+    background-color: #17a3b6; 
+}
+img {
     height: 20em;
+    padding-left: 8.5em;
+    padding-right: 8.5em;
+    position: absolute;
 }
-ul{
+
+#bienvenido-izquierda{
+    left: 2em;
+    top:6em
+}
+
+#corazonIzquierda{
+    left:32em;
+    top:8em
+}
+
+#unicornioArma{
+    left: 40em;
+    top:6em;
+}
+
+#corazonDerecha{
+    top:18.5em;
+    right:35em;
+}
+
+#bienvenido-derecha{
+    right:2em;
+    top: 6em;
+}
+
+.falling {
+    position: absolute;
+    top: -100px;
+    width: 50px;
+    height: 50px;
+    transition: top linear;
+}
+ul {
     list-style: none;
+    display: inline-flex;
+    
+}
+li{
+    padding-right: 2em;
+    font-size: 1.5em;
+}
+#inicio{
+    padding: 2rem;
+    background: #f4f4f4;
+}
+#inicio p{
+    background:white;
+    padding-left: 1rem;
+    
 }
 #equipo {
     padding: 2rem;
     background: #f4f4f4;
+}
+
+#corazonIzquierda , #corazonDerecha{
+    height: 80px;
 }
 .miembro {
     margin: 1rem 0;
@@ -32,14 +92,21 @@ ul{
     background: white;
     border-radius: 5px;
 }
+
 #contacto {
     padding: 2rem;
+}
+footer{
+    padding:2em;
 }
 form {
     max-width: 500px;
     margin: 0 auto;
 }
-input, textarea, button {
+
+input,
+textarea,
+button {
     width: 100%;
     margin: 0.5rem 0;
     padding: 0.5rem;
