@@ -111,3 +111,33 @@ button {
     margin: 0.5rem 0;
     padding: 0.5rem;
 }
+@media(max-width:677px) {
+    header{
+        height: 18em;
+    }
+    #bienvenido-izquierda{
+        height:5.5em;
+        left:-8em;
+        top:10em;
+    }
+    #bienvenido-derecha{
+        height: 5.5em;
+        right: -8em;
+        top:9.8em;
+    }
+    #unicornioArma{
+        height: 8em;
+        left:-1em;
+        top:8em
+    }
+    #corazonIzquierda{
+        height: 1em;
+        left:-2em;
+        top:10em;
+    }
+    #corazonDerecha{
+        height: 1em;
+        right:-2em;
+        top:13.5em;
+    }
+}
